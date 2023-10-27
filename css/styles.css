@@ -238,7 +238,7 @@ p {
 
 .form-label {
     display: block;
-    font-weight: bold;
+    font-weight: 500;
     margin-bottom: 8px;
 }
 
@@ -257,7 +257,7 @@ p {
 /* Inputs */
 .input {
     padding: 1.5rem 3.5rem;
-    font-size: 2rem;
+    font-size: 1.55rem;
     outline: 0;
     border: 1px solid #c6cdd1;
     border-radius: 8px;
@@ -305,7 +305,7 @@ p {
 
 @media screen and (min-width: 768px) {
     body {
-        font-size: 2rem;
+        font-size: 1.8rem;
 
     }
 
@@ -351,11 +351,12 @@ p {
 }
 
 .footer__brand {
-    margin-top: 5rem;
     text-align: center;
+    margin-right: 2rem;
 }
 
 .footer__brand img {
+    margin-top: 18px;
     width: 100%;
     max-width: 230px;
 }
@@ -379,8 +380,12 @@ p {
 }
 
 .footer a {
-    color: #777;
+    color: #999;
     transition: color 0.3s;
+}
+
+.footer span {
+    color: var(--color-primary);
 }
 
 .footer a:hover {
@@ -427,6 +432,12 @@ p {
         font-size: 1.6rem;
         margin-bottom: 1rem;
     }
+}
+
+.footer svg {
+    height: 32px;
+    fill: var(--color-accent);
+    margin: 4px;
 }
 
 /* Grid */
